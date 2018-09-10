@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XcodeProgram source="/tmp/__omni_tmp__13953/b_pp.c" language="C" time="2018-09-05 17:30:05"
+              compiler-info="XcodeML/C-FrontEnd" version="1.3.0">
+  <typeTable>
+    <basicType type="B0" is_const="1" name="char"/>
+    <basicType type="B1" is_const="1" name="char"/>
+    <basicType type="B2" is_const="1" name="char"/>
+    <basicType type="B3" is_const="1" name="char"/>
+    <basicType type="B4" is_const="1" name="char"/>
+    <basicType type="B5" is_const="1" name="char"/>
+    <basicType type="B6" is_const="1" name="char"/>
+    <basicType type="B7" is_const="1" name="char"/>
+    <basicType type="B8" is_const="1" name="char"/>
+    <basicType type="B9" is_const="1" name="char"/>
+    <basicType type="B10" is_const="1" name="char"/>
+    <basicType type="B11" is_const="1" name="char"/>
+    <basicType type="B12" is_const="1" name="char"/>
+    <basicType type="B13" is_const="1" name="char"/>
+    <basicType type="B14" is_const="1" name="char"/>
+    <basicType type="B15" is_const="1" name="char"/>
+    <basicType type="B16" is_const="1" name="char"/>
+    <basicType type="B17" is_const="1" name="char"/>
+    <basicType type="B18" is_const="1" name="char"/>
+    <basicType type="B19" is_const="1" name="char"/>
+    <basicType type="B20" is_const="1" name="char"/>
+    <basicType type="B21" is_const="1" name="char"/>
+    <basicType type="B22" is_const="1" name="char"/>
+    <basicType type="B23" is_const="1" name="char"/>
+    <basicType type="B24" is_const="1" name="char"/>
+    <basicType type="B25" is_const="1" name="char"/>
+    <basicType type="B26" is_const="1" name="char"/>
+    <basicType type="B27" is_const="1" name="char"/>
+    <basicType type="B28" is_const="1" name="char"/>
+    <basicType type="B29" is_const="1" name="char"/>
+    <basicType type="B30" is_const="1" name="char"/>
+    <basicType type="B31" is_const="1" name="char"/>
+    <basicType type="B32" is_const="1" name="char"/>
+    <basicType type="B33" is_const="1" name="char"/>
+    <basicType type="B34" is_const="1" name="char"/>
+    <basicType type="B35" is_const="1" name="char"/>
+    <basicType type="B36" is_const="1" name="char"/>
+    <basicType type="B37" is_const="1" name="char"/>
+    <basicType type="B38" is_const="1" name="char"/>
+    <basicType type="B39" is_const="1" name="char"/>
+    <basicType type="B40" is_const="1" name="char"/>
+    <basicType type="B41" is_const="1" name="char"/>
+    <basicType type="B42" is_const="1" name="char"/>
+    <basicType type="B43" is_const="1" name="char"/>
+    <basicType type="B44" is_const="1" name="void"/>
+    <basicType type="B45" is_const="1" name="void"/>
+    <basicType type="B46" is_const="1" name="char"/>
+    <basicType type="B47" is_const="1" name="char"/>
+    <basicType type="B48" is_const="1" name="char"/>
+    <basicType type="B49" is_const="1" name="char"/>
+    <pointerType type="P0" ref="void"/>
+    <pointerType type="P1" ref="long"/>
+    <pointerType type="P2" ref="char"/>
+    <pointerType type="P3" ref="char"/>
+    <pointerType type="P4" ref="char"/>
+    <pointerType type="P5" ref="char"/>
+    <pointerType type="P6" ref="char"/>
+    <pointerType type="P7" ref="char"/>
+    <pointerType type="P8" ref="char"/>
+    <pointerType type="P9" ref="char"/>
+    <pointerType type="P10" ref="char"/>
+    <pointerType type="P11" ref="char"/>
+    <pointerType type="P12" ref="char"/>
+    <pointerType type="P13" ref="char"/>
+    <pointerType type="P14" ref="S2"/>
+    <pointerType type="P15" ref="S1"/>
+    <pointerType type="P16" ref="S2"/>
+    <pointerType type="P17" ref="S1"/>
+    <pointerType type="P18" ref="void"/>
+    <pointerType type="P19" ref="void"/>
+    <pointerType type="P20" ref="void"/>
+    <pointerType type="P21" ref="void"/>
+    <pointerType type="P22" ref="void"/>
+    <pointerType type="P23" ref="void"/>
+    <pointerType type="P24" ref="void"/>
+    <pointerType type="P25" ref="char"/>
+    <pointerType type="P26" ref="void"/>
+    <pointerType type="P27" ref="B0"/>
+    <pointerType type="P28" ref="void"/>
+    <pointerType type="P29" ref="long"/>
+    <pointerType type="P30" ref="void"/>
+    <pointerType type="P31" ref="S1"/>
+    <pointerType type="P32" ref="S1"/>
+    <pointerType type="P33" ref="S1"/>
+    <pointerType type="P34" ref="S1"/>
+    <pointerType type="P35" ref="S1"/>
+    <pointerType type="P36" ref="S1"/>
+    <pointerType type="P37" ref="S1"/>
+    <pointerType type="P38" ref="S1"/>
+    <pointerType type="P39" ref="S1"/>
+    <pointerType type="P40" ref="S1"/>
+    <pointerType type="P41" ref="S1"/>
+    <pointerType type="P42" is_restrict="1" ref="S1"/>
+    <pointerType type="P43" is_restrict="1" ref="B1"/>
+    <pointerType type="P44" is_restrict="1" ref="int"/>
+    <pointerType type="P45" is_restrict="1" ref="S1"/>
+    <pointerType type="P46" is_restrict="1" ref="B2"/>
+    <pointerType type="P47" ref="S1"/>
+    <pointerType type="P48" ref="S1"/>
+    <pointerType type="P49" ref="void"/>
+    <pointerType type="P50" ref="S1"/>
+    <pointerType type="P51" ref="S1"/>
+    <pointerType type="P52" ref="S1"/>
+    <pointerType type="P53" ref="S1"/>
+    <pointerType type="P54" ref="S1"/>
+    <pointerType type="P55" ref="S1"/>
+    <pointerType type="P56" ref="B3"/>
+    <pointerType type="P57" ref="B4"/>
+    <pointerType type="P58" ref="B5"/>
+    <pointerType type="P59" ref="B6"/>
+    <pointerType type="P60" ref="B7"/>
+    <pointerType type="P61" ref="S1"/>
+    <pointerType type="P62" ref="char"/>
+    <pointerType type="P63" ref="char"/>
+    <pointerType type="P64" ref="char"/>
+    <pointerType type="P65" ref="char"/>
+    <pointerType type="P66" ref="char"/>
+    <pointerType type="P67" ref="B8"/>
+    <pointerType type="P68" ref="B9"/>
+    <pointerType type="P69" ref="S1"/>
+    <pointerType type="P70" ref="S1"/>
+    <pointerType type="P71" ref="S1"/>
+    <pointerType type="P72" ref="S1"/>
+    <pointerType type="P73" is_restrict="1" ref="B10"/>
+    <pointerType type="P74" is_restrict="1" ref="B11"/>
+    <pointerType type="P75" ref="S1"/>
+    <pointerType type="P76" is_restrict="1" ref="B12"/>
+    <pointerType type="P77" is_restrict="1" ref="B13"/>
+    <pointerType type="P78" is_restrict="1" ref="S1"/>
+    <pointerType type="P79" ref="S1"/>
+    <pointerType type="P80" ref="B14"/>
+    <pointerType type="P81" ref="S1"/>
+    <pointerType type="P82" ref="void"/>
+    <pointerType type="P83" ref="B15"/>
+    <pointerType type="P84" ref="S1"/>
+    <pointerType type="P86" ref="P85"/>
+    <pointerType type="P85" ref="char"/>
+    <pointerType type="P87" ref="unsigned_long"/>
+    <pointerType type="P88" is_restrict="1" ref="S1"/>
+    <pointerType type="P89" is_restrict="1" ref="char"/>
+    <pointerType type="P90" is_restrict="1" ref="S1"/>
+    <pointerType type="P91" is_restrict="1" ref="char"/>
+    <pointerType type="P92" is_restrict="1" ref="S1"/>
+    <pointerType type="P93" is_restrict="1" ref="char"/>
+    <pointerType type="P94" ref="S1"/>
+    <pointerType type="P95" is_restrict="1" ref="S1"/>
+    <pointerType type="P96" is_restrict="1" ref="B16"/>
+    <pointerType type="P97" is_restrict="1" ref="B17"/>
+    <pointerType type="P98" is_restrict="1" ref="char"/>
+    <pointerType type="P99" is_restrict="1" ref="B18"/>
+    <pointerType type="P100" is_restrict="1" ref="S1"/>
+    <pointerType type="P101" is_restrict="1" ref="B19"/>
+    <pointerType type="P102" is_restrict="1" ref="B20"/>
+    <pointerType type="P103" is_restrict="1" ref="char"/>
+    <pointerType type="P104" is_restrict="1" ref="B21"/>
+    <pointerType type="P105" is_restrict="1" ref="char"/>
+    <pointerType type="P106" is_restrict="1" ref="B22"/>
+    <pointerType type="P107" is_restrict="1" ref="char"/>
+    <pointerType type="P108" is_restrict="1" ref="B23"/>
+    <pointerType type="P109" is_restrict="1" ref="B24"/>
+    <pointerType type="P110" is_restrict="1" ref="B25"/>
+    <pointerType type="P111" is_restrict="1" ref="S1"/>
+    <pointerType type="P112" is_restrict="1" ref="B26"/>
+    <pointerType type="P113" is_restrict="1" ref="B27"/>
+    <pointerType type="P114" is_restrict="1" ref="B28"/>
+    <pointerType type="P115" is_restrict="1" ref="B29"/>
+    <pointerType type="P116" is_restrict="1" ref="S1"/>
+    <pointerType type="P117" is_restrict="1" ref="B30"/>
+    <pointerType type="P118" is_restrict="1" ref="char"/>
+    <pointerType type="P119" is_restrict="1" ref="B31"/>
+    <pointerType type="P120" is_restrict="1" ref="B32"/>
+    <pointerType type="P121" is_restrict="1" ref="B33"/>
+    <pointerType type="P122" is_restrict="1" ref="S1"/>
+    <pointerType type="P123" is_restrict="1" ref="B34"/>
+    <pointerType type="P124" is_restrict="1" ref="B35"/>
+    <pointerType type="P125" is_restrict="1" ref="B36"/>
+    <pointerType type="P126" is_restrict="1" ref="B37"/>
+    <pointerType type="P127" is_restrict="1" ref="S1"/>
+    <pointerType type="P128" is_restrict="1" ref="B38"/>
+    <pointerType type="P129" is_restrict="1" ref="B39"/>
+    <pointerType type="P130" is_restrict="1" ref="B40"/>
+    <pointerType type="P131" is_restrict="1" ref="B41"/>
+    <pointerType type="P132" ref="S1"/>
+    <pointerType type="P133" ref="S1"/>
+    <pointerType type="P134" ref="S1"/>
+    <pointerType type="P135" ref="S1"/>
+    <pointerType type="P136" ref="S1"/>
+    <pointerType type="P137" ref="S1"/>
+    <pointerType type="P138" ref="S1"/>
+    <pointerType type="P139" ref="S1"/>
+    <pointerType type="P140" ref="S1"/>
+    <pointerType type="P141" ref="S1"/>
+    <pointerType type="P142" ref="char"/>
+    <pointerType type="P143" is_restrict="1" ref="char"/>
+    <pointerType type="P144" is_restrict="1" ref="S1"/>
+    <pointerType type="P145" ref="char"/>
+    <pointerType type="P146" ref="char"/>
+    <pointerType type="P148" is_restrict="1" ref="P147"/>
+    <pointerType type="P147" ref="char"/>
+    <pointerType type="P149" is_restrict="1" ref="unsigned_long"/>
+    <pointerType type="P150" is_restrict="1" ref="S1"/>
+    <pointerType type="P152" is_restrict="1" ref="P151"/>
+    <pointerType type="P151" ref="char"/>
+    <pointerType type="P153" is_restrict="1" ref="unsigned_long"/>
+    <pointerType type="P154" is_restrict="1" ref="S1"/>
+    <pointerType type="P156" is_restrict="1" ref="P155"/>
+    <pointerType type="P155" ref="char"/>
+    <pointerType type="P157" is_restrict="1" ref="unsigned_long"/>
+    <pointerType type="P158" is_restrict="1" ref="S1"/>
+    <pointerType type="P159" is_restrict="1" ref="B42"/>
+    <pointerType type="P160" is_restrict="1" ref="S1"/>
+    <pointerType type="P161" ref="B43"/>
+    <pointerType type="P162" ref="S1"/>
+    <pointerType type="P163" is_restrict="1" ref="void"/>
+    <pointerType type="P164" is_restrict="1" ref="S1"/>
+    <pointerType type="P165" is_restrict="1" ref="B44"/>
+    <pointerType type="P166" is_restrict="1" ref="S1"/>
+    <pointerType type="P167" is_restrict="1" ref="void"/>
+    <pointerType type="P168" is_restrict="1" ref="S1"/>
+    <pointerType type="P169" is_restrict="1" ref="B45"/>
+    <pointerType type="P170" is_restrict="1" ref="S1"/>
+    <pointerType type="P171" ref="S1"/>
+    <pointerType type="P172" ref="S1"/>
+    <pointerType type="P173" ref="S1"/>
+    <pointerType type="P174" ref="S1"/>
+    <pointerType type="P175" ref="S1"/>
+    <pointerType type="P176" is_restrict="1" ref="S1"/>
+    <pointerType type="P177" is_restrict="1" ref="S4"/>
+    <pointerType type="P178" ref="S1"/>
+    <pointerType type="P179" ref="S8"/>
+    <pointerType type="P180" ref="S1"/>
+    <pointerType type="P181" ref="S1"/>
+    <pointerType type="P182" ref="S1"/>
+    <pointerType type="P183" ref="S1"/>
+    <pointerType type="P184" ref="S1"/>
+    <pointerType type="P185" ref="S1"/>
+    <pointerType type="P186" ref="B46"/>
+    <pointerType type="P187" is_const="1" ref="B47"/>
+    <pointerType type="P188" ref="S1"/>
+    <pointerType type="P189" ref="S1"/>
+    <pointerType type="P190" ref="S1"/>
+    <pointerType type="P191" ref="B48"/>
+    <pointerType type="P192" ref="B49"/>
+    <pointerType type="P193" ref="S1"/>
+    <pointerType type="P194" ref="char"/>
+    <pointerType type="P195" ref="char"/>
+    <pointerType type="P196" ref="S1"/>
+    <pointerType type="P197" ref="S1"/>
+    <pointerType type="P198" ref="S1"/>
+    <pointerType type="P199" ref="int"/>
+    <pointerType type="P200" ref="int"/>
+    <pointerType type="P201" ref="F42"/>
+    <arrayType type="A0" element_type="int" array_size="2"/>
+    <arrayType type="A1" element_type="char" array_size="1"/>
+    <arrayType type="A2" element_type="char" array_size="*">
+      <arraySize>
+        <minusExpr type="unsigned">
+          <minusExpr type="unsigned">
+            <mulExpr type="unsigned">
+              <intConstant type="int">15</intConstant>
+              <sizeOfExpr type="unsigned">
+                <typeName type="int"/>
+              </sizeOfExpr>
+            </mulExpr>
+            <mulExpr type="unsigned">
+              <intConstant type="int">4</intConstant>
+              <sizeOfExpr type="unsigned">
+                <typeName type="P23"/>
+              </sizeOfExpr>
+            </mulExpr>
+          </minusExpr>
+          <sizeOfExpr type="unsigned">
+            <typeName type="unsigned_long"/>
+          </sizeOfExpr>
+        </minusExpr>
+      </arraySize>
+    </arrayType>
+    <arrayType type="A3" element_type="char" array_size="4"/>
+    <arrayType type="A4" element_type="P187"/>
+    <arrayType type="A5" element_type="int" array_size="5"/>
+    <arrayType type="A6" element_type="int" array_size="5"/>
+    <structType type="S0">
+      <symbols>
+        <id type="A0">
+          <name>__val</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S1">
+      <symbols>
+        <id type="int">
+          <name>_flags</name>
+        </id>
+        <id type="P3">
+          <name>_IO_read_ptr</name>
+        </id>
+        <id type="P4">
+          <name>_IO_read_end</name>
+        </id>
+        <id type="P5">
+          <name>_IO_read_base</name>
+        </id>
+        <id type="P6">
+          <name>_IO_write_base</name>
+        </id>
+        <id type="P7">
+          <name>_IO_write_ptr</name>
+        </id>
+        <id type="P8">
+          <name>_IO_write_end</name>
+        </id>
+        <id type="P9">
+          <name>_IO_buf_base</name>
+        </id>
+        <id type="P10">
+          <name>_IO_buf_end</name>
+        </id>
+        <id type="P11">
+          <name>_IO_save_base</name>
+        </id>
+        <id type="P12">
+          <name>_IO_backup_base</name>
+        </id>
+        <id type="P13">
+          <name>_IO_save_end</name>
+        </id>
+        <id type="P16">
+          <name>_markers</name>
+        </id>
+        <id type="P17">
+          <name>_chain</name>
+        </id>
+        <id type="int">
+          <name>_fileno</name>
+        </id>
+        <id type="int">
+          <name>_flags2</name>
+        </id>
+        <id type="long">
+          <name>_old_offset</name>
+        </id>
+        <id type="unsigned_short">
+          <name>_cur_column</name>
+        </id>
+        <id type="char">
+          <name>_vtable_offset</name>
+        </id>
+        <id type="A1">
+          <name>_shortbuf</name>
+        </id>
+        <id type="P18">
+          <name>_lock</name>
+        </id>
+        <id type="long">
+          <name>_offset</name>
+        </id>
+        <id type="P19">
+          <name>__pad1</name>
+        </id>
+        <id type="P20">
+          <name>__pad2</name>
+        </id>
+        <id type="P21">
+          <name>__pad3</name>
+        </id>
+        <id type="P22">
+          <name>__pad4</name>
+        </id>
+        <id type="unsigned_long">
+          <name>__pad5</name>
+        </id>
+        <id type="int">
+          <name>_mode</name>
+        </id>
+        <id type="A2">
+          <name>_unused2</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S2">
+      <symbols>
+        <id type="P14">
+          <name>_next</name>
+        </id>
+        <id type="P15">
+          <name>_sbuf</name>
+        </id>
+        <id type="int">
+          <name>_pos</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S3">
+      <symbols>
+        <id type="int">
+          <name>__count</name>
+        </id>
+        <id type="U0">
+          <name>__value</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S4">
+      <symbols>
+        <id type="long">
+          <name>__pos</name>
+        </id>
+        <id type="S3">
+          <name>__state</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S5">
+      <symbols>
+        <id type="long">
+          <name>__pos</name>
+        </id>
+        <id type="S3">
+          <name>__state</name>
+        </id>
+      </symbols>
+    </structType>
+    <structType type="S6"/>
+    <structType type="S7"/>
+    <unionType type="U0">
+      <symbols>
+        <id type="unsigned">
+          <name>__wch</name>
+        </id>
+        <id type="A3">
+          <name>__wchb</name>
+        </id>
+      </symbols>
+    </unionType>
+    <enumType type="E0">
+      <symbols>
+        <id>
+          <name>__codecvt_ok</name>
+        </id>
+        <id>
+          <name>__codecvt_partial</name>
+        </id>
+        <id>
+          <name>__codecvt_error</name>
+        </id>
+        <id>
+          <name>__codecvt_noconv</name>
+        </id>
+      </symbols>
+    </enumType>
+    <functionType type="F0" return_type="long">
+      <params>
+        <name type="P24">__cookie</name>
+        <name type="P25">__buf</name>
+        <name type="unsigned_long">__nbytes</name>
+      </params>
+    </functionType>
+    <functionType type="F1" return_type="long">
+      <params>
+        <name type="P26">__cookie</name>
+        <name type="P27">__buf</name>
+        <name type="unsigned_long">__n</name>
+      </params>
+    </functionType>
+    <functionType type="F2" return_type="int">
+      <params>
+        <name type="P28">__cookie</name>
+        <name type="P29">__pos</name>
+        <name type="int">__w</name>
+      </params>
+    </functionType>
+    <functionType type="F3" return_type="int">
+      <params>
+        <name type="P30">__cookie</name>
+      </params>
+    </functionType>
+    <functionType type="F4" return_type="int">
+      <params>
+        <name type="P31"/>
+      </params>
+    </functionType>
+    <functionType type="F5" return_type="int">
+      <params>
+        <name type="P32"/>
+      </params>
+    </functionType>
+    <functionType type="F6" return_type="int">
+      <params>
+        <name type="P33"/>
+        <name type="int"/>
+      </params>
+    </functionType>
+    <functionType type="F7" return_type="int">
+      <params>
+        <name type="P34">__fp</name>
+      </params>
+    </functionType>
+    <functionType type="F8" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P35">__fp</name>
+      </params>
+    </functionType>
+    <functionType type="F9" return_type="int">
+      <params>
+        <name type="P36">__fp</name>
+      </params>
+    </functionType>
+    <functionType type="F10" return_type="int">
+      <params>
+        <name type="P37">__fp</name>
+      </params>
+    </functionType>
+    <functionType type="F11" return_type="int">
+      <params>
+        <name type="P38">__fp</name>
+      </params>
+    </functionType>
+    <functionType type="F12" return_type="void">
+      <params>
+        <name type="P39"/>
+      </params>
+    </functionType>
+    <functionType type="F13" return_type="void">
+      <params>
+        <name type="P40"/>
+      </params>
+    </functionType>
+    <functionType type="F14" return_type="int">
+      <params>
+        <name type="P41"/>
+      </params>
+    </functionType>
+    <functionType type="F15" return_type="int">
+      <params>
+        <name type="P42"/>
+        <name type="P43"/>
+        <name type="__builtin_va_list"/>
+        <name type="P44"/>
+      </params>
+    </functionType>
+    <functionType type="F16" return_type="int">
+      <params>
+        <name type="P45"/>
+        <name type="P46"/>
+        <name type="__builtin_va_list"/>
+      </params>
+    </functionType>
+    <functionType type="F17" return_type="long">
+      <params>
+        <name type="P47"/>
+        <name type="int"/>
+        <name type="long"/>
+      </params>
+    </functionType>
+    <functionType type="F18" return_type="unsigned_long">
+      <params>
+        <name type="P48"/>
+        <name type="P49"/>
+        <name type="unsigned_long"/>
+      </params>
+    </functionType>
+    <functionType type="F19" return_type="long">
+      <params>
+        <name type="P50"/>
+        <name type="long"/>
+        <name type="int"/>
+        <name type="int"/>
+      </params>
+    </functionType>
+    <functionType type="F20" return_type="long">
+      <params>
+        <name type="P51"/>
+        <name type="long"/>
+        <name type="int"/>
+      </params>
+    </functionType>
+    <functionType type="F21" return_type="void">
+      <params>
+        <name type="P52"/>
+      </params>
+    </functionType>
+    <functionType type="F22" return_type="int">
+      <params>
+        <name type="P56">__filename</name>
+      </params>
+    </functionType>
+    <functionType type="F23" return_type="int">
+      <params>
+        <name type="P57">__old</name>
+        <name type="P58">__new</name>
+      </params>
+    </functionType>
+    <functionType type="F24" return_type="int">
+      <params>
+        <name type="int">__oldfd</name>
+        <name type="P59">__old</name>
+        <name type="int">__newfd</name>
+        <name type="P60">__new</name>
+      </params>
+    </functionType>
+    <functionType type="F25" return_type="P61">
+      <params>
+        <name type="void"/>
+      </params>
+    </functionType>
+    <functionType type="F26" return_type="P62">
+      <params>
+        <name type="P63">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F27" return_type="P64">
+      <params>
+        <name type="P65">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F28" return_type="P66">
+      <params>
+        <name type="P67">__dir</name>
+        <name type="P68">__pfx</name>
+      </params>
+    </functionType>
+    <functionType type="F29" return_type="int">
+      <params>
+        <name type="P69">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F30" return_type="int">
+      <params>
+        <name type="P70">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F31" return_type="int">
+      <params>
+        <name type="P71">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F32" return_type="P72">
+      <params>
+        <name type="P73">__filename</name>
+        <name type="P74">__modes</name>
+      </params>
+    </functionType>
+    <functionType type="F33" return_type="P75">
+      <params>
+        <name type="P76">__filename</name>
+        <name type="P77">__modes</name>
+        <name type="P78">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F34" return_type="P79">
+      <params>
+        <name type="int">__fd</name>
+        <name type="P80">__modes</name>
+      </params>
+    </functionType>
+    <functionType type="F35" return_type="P81">
+      <params>
+        <name type="P82">__s</name>
+        <name type="unsigned_long">__len</name>
+        <name type="P83">__modes</name>
+      </params>
+    </functionType>
+    <functionType type="F36" return_type="P84">
+      <params>
+        <name type="P86">__bufloc</name>
+        <name type="P87">__sizeloc</name>
+      </params>
+    </functionType>
+    <functionType type="F37" return_type="void">
+      <params>
+        <name type="P88">__stream</name>
+        <name type="P89">__buf</name>
+      </params>
+    </functionType>
+    <functionType type="F38" return_type="int">
+      <params>
+        <name type="P90">__stream</name>
+        <name type="P91">__buf</name>
+        <name type="int">__modes</name>
+        <name type="unsigned_long">__n</name>
+      </params>
+    </functionType>
+    <functionType type="F39" return_type="void">
+      <params>
+        <name type="P92">__stream</name>
+        <name type="P93">__buf</name>
+        <name type="unsigned_long">__size</name>
+      </params>
+    </functionType>
+    <functionType type="F40" return_type="void">
+      <params>
+        <name type="P94">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F41" return_type="int">
+      <params>
+        <name type="P95">__stream</name>
+        <name type="P96">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F42" return_type="int">
+      <params>
+        <name type="P97">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F43" return_type="int">
+      <params>
+        <name type="P98">__s</name>
+        <name type="P99">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F44" return_type="int">
+      <params>
+        <name type="P100">__s</name>
+        <name type="P101">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F45" return_type="int">
+      <params>
+        <name type="P102">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F46" return_type="int">
+      <params>
+        <name type="P103">__s</name>
+        <name type="P104">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F47" return_type="int">
+      <params>
+        <name type="P105">__s</name>
+        <name type="unsigned_long">__maxlen</name>
+        <name type="P106">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F48" return_type="int">
+      <params>
+        <name type="P107">__s</name>
+        <name type="unsigned_long">__maxlen</name>
+        <name type="P108">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F49" return_type="int">
+      <params>
+        <name type="int">__fd</name>
+        <name type="P109">__fmt</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F50" return_type="int">
+      <params>
+        <name type="int">__fd</name>
+        <name type="P110">__fmt</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F51" return_type="int">
+      <params>
+        <name type="P111">__stream</name>
+        <name type="P112">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F52" return_type="int">
+      <params>
+        <name type="P113">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F53" return_type="int">
+      <params>
+        <name type="P114">__s</name>
+        <name type="P115">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F54" return_type="int">
+      <params>
+        <name type="P116">__stream</name>
+        <name type="P117">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F55" return_type="int">
+      <params>
+        <name type="P119">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F56" return_type="int">
+      <params>
+        <name type="P120">__s</name>
+        <name type="P121">__format</name>
+        <ellipsis/>
+      </params>
+    </functionType>
+    <functionType type="F57" return_type="int">
+      <params>
+        <name type="P122">__s</name>
+        <name type="P123">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F58" return_type="int">
+      <params>
+        <name type="P124">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F59" return_type="int">
+      <params>
+        <name type="P125">__s</name>
+        <name type="P126">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F60" return_type="int">
+      <params>
+        <name type="P127">__s</name>
+        <name type="P128">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F61" return_type="int">
+      <params>
+        <name type="P129">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F62" return_type="int">
+      <params>
+        <name type="P130">__s</name>
+        <name type="P131">__format</name>
+        <name type="__builtin_va_list">__arg</name>
+      </params>
+    </functionType>
+    <functionType type="F63" return_type="int">
+      <params>
+        <name type="P132">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F64" return_type="int">
+      <params>
+        <name type="P133">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F65" return_type="int">
+      <params>
+        <name type="void"/>
+      </params>
+    </functionType>
+    <functionType type="F66" return_type="int">
+      <params>
+        <name type="P134">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F67" return_type="int">
+      <params>
+        <name type="void"/>
+      </params>
+    </functionType>
+    <functionType type="F68" return_type="int">
+      <params>
+        <name type="P135">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F69" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P136">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F70" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P137">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F71" return_type="int">
+      <params>
+        <name type="int">__c</name>
+      </params>
+    </functionType>
+    <functionType type="F72" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P138">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F73" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P139">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F74" return_type="int">
+      <params>
+        <name type="int">__c</name>
+      </params>
+    </functionType>
+    <functionType type="F75" return_type="int">
+      <params>
+        <name type="P140">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F76" return_type="int">
+      <params>
+        <name type="int">__w</name>
+        <name type="P141">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F77" return_type="P142">
+      <params>
+        <name type="P143">__s</name>
+        <name type="int">__n</name>
+        <name type="P144">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F78" return_type="P145">
+      <params>
+        <name type="P146">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F79" return_type="long">
+      <params>
+        <name type="P148">__lineptr</name>
+        <name type="P149">__n</name>
+        <name type="int">__delimiter</name>
+        <name type="P150">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F80" return_type="long">
+      <params>
+        <name type="P152">__lineptr</name>
+        <name type="P153">__n</name>
+        <name type="int">__delimiter</name>
+        <name type="P154">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F81" return_type="long">
+      <params>
+        <name type="P156">__lineptr</name>
+        <name type="P157">__n</name>
+        <name type="P158">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F82" return_type="int">
+      <params>
+        <name type="P159">__s</name>
+        <name type="P160">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F83" return_type="int">
+      <params>
+        <name type="P161">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F84" return_type="int">
+      <params>
+        <name type="int">__c</name>
+        <name type="P162">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F85" return_type="unsigned_long">
+      <params>
+        <name type="P163">__ptr</name>
+        <name type="unsigned_long">__size</name>
+        <name type="unsigned_long">__n</name>
+        <name type="P164">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F86" return_type="unsigned_long">
+      <params>
+        <name type="P165">__ptr</name>
+        <name type="unsigned_long">__size</name>
+        <name type="unsigned_long">__n</name>
+        <name type="P166">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F87" return_type="unsigned_long">
+      <params>
+        <name type="P167">__ptr</name>
+        <name type="unsigned_long">__size</name>
+        <name type="unsigned_long">__n</name>
+        <name type="P168">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F88" return_type="unsigned_long">
+      <params>
+        <name type="P169">__ptr</name>
+        <name type="unsigned_long">__size</name>
+        <name type="unsigned_long">__n</name>
+        <name type="P170">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F89" return_type="int">
+      <params>
+        <name type="P171">__stream</name>
+        <name type="long">__off</name>
+        <name type="int">__whence</name>
+      </params>
+    </functionType>
+    <functionType type="F90" return_type="long">
+      <params>
+        <name type="P172">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F91" return_type="void">
+      <params>
+        <name type="P173">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F92" return_type="int">
+      <params>
+        <name type="P174">__stream</name>
+        <name type="long">__off</name>
+        <name type="int">__whence</name>
+      </params>
+    </functionType>
+    <functionType type="F93" return_type="long">
+      <params>
+        <name type="P175">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F94" return_type="int">
+      <params>
+        <name type="P176">__stream</name>
+        <name type="P177">__pos</name>
+      </params>
+    </functionType>
+    <functionType type="F95" return_type="int">
+      <params>
+        <name type="P178">__stream</name>
+        <name type="P179">__pos</name>
+      </params>
+    </functionType>
+    <functionType type="F96" return_type="void">
+      <params>
+        <name type="P180">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F97" return_type="int">
+      <params>
+        <name type="P181">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F98" return_type="int">
+      <params>
+        <name type="P182">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F99" return_type="void">
+      <params>
+        <name type="P183">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F100" return_type="int">
+      <params>
+        <name type="P184">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F101" return_type="int">
+      <params>
+        <name type="P185">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F102" return_type="void">
+      <params>
+        <name type="P186">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F103" return_type="int">
+      <params>
+        <name type="P188">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F104" return_type="int">
+      <params>
+        <name type="P189">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F105" return_type="P190">
+      <params>
+        <name type="P191">__command</name>
+        <name type="P192">__modes</name>
+      </params>
+    </functionType>
+    <functionType type="F106" return_type="int">
+      <params>
+        <name type="P193">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F107" return_type="P194">
+      <params>
+        <name type="P195">__s</name>
+      </params>
+    </functionType>
+    <functionType type="F108" return_type="void">
+      <params>
+        <name type="P196">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F109" return_type="int">
+      <params>
+        <name type="P197">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F110" return_type="void">
+      <params>
+        <name type="P198">__stream</name>
+      </params>
+    </functionType>
+    <functionType type="F111" return_type="int">
+      <params/>
+    </functionType>
+    <basicType type="S8" is_const="1" name="S4"/>
+  </typeTable>
+  <globalSymbols>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>size_t</name>
+    </id>
+    <id type="unsigned_char" sclass="typedef_name">
+      <name>__u_char</name>
+    </id>
+    <id type="unsigned_short" sclass="typedef_name">
+      <name>__u_short</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__u_int</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__u_long</name>
+    </id>
+    <id type="char" sclass="typedef_name">
+      <name>__int8_t</name>
+    </id>
+    <id type="unsigned_char" sclass="typedef_name">
+      <name>__uint8_t</name>
+    </id>
+    <id type="short" sclass="typedef_name">
+      <name>__int16_t</name>
+    </id>
+    <id type="unsigned_short" sclass="typedef_name">
+      <name>__uint16_t</name>
+    </id>
+    <id type="int" sclass="typedef_name">
+      <name>__int32_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__uint32_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__int64_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__uint64_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__quad_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__u_quad_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__dev_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__uid_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__gid_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__ino_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__ino64_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__mode_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__nlink_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__off_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__off64_t</name>
+    </id>
+    <id type="int" sclass="typedef_name">
+      <name>__pid_t</name>
+    </id>
+    <id type="S0" sclass="tagname">
+      <name>anon_type_1___fsid_t</name>
+    </id>
+    <id type="S0" sclass="typedef_name">
+      <name>__fsid_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__clock_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__rlim_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__rlim64_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__id_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__time_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__useconds_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__suseconds_t</name>
+    </id>
+    <id type="int" sclass="typedef_name">
+      <name>__daddr_t</name>
+    </id>
+    <id type="int" sclass="typedef_name">
+      <name>__key_t</name>
+    </id>
+    <id type="int" sclass="typedef_name">
+      <name>__clockid_t</name>
+    </id>
+    <id type="P0" sclass="typedef_name">
+      <name>__timer_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__blksize_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__blkcnt_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__blkcnt64_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__fsblkcnt_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__fsblkcnt64_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__fsfilcnt_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__fsfilcnt64_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__fsword_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__ssize_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__syscall_slong_t</name>
+    </id>
+    <id type="unsigned_long" sclass="typedef_name">
+      <name>__syscall_ulong_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__loff_t</name>
+    </id>
+    <id type="P1" sclass="typedef_name">
+      <name>__qaddr_t</name>
+    </id>
+    <id type="P2" sclass="typedef_name">
+      <name>__caddr_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>__intptr_t</name>
+    </id>
+    <id type="unsigned" sclass="typedef_name">
+      <name>__socklen_t</name>
+    </id>
+    <id type="S1" sclass="typedef_name">
+      <name>FILE</name>
+    </id>
+    <id type="S1" sclass="typedef_name">
+      <name>__FILE</name>
+    </id>
+    <id type="S3" sclass="tagname">
+      <name>anon_type_2___mbstate_t</name>
+    </id>
+    <id type="U0" sclass="tagname">
+      <name>anon_type_3___value</name>
+    </id>
+    <id type="S3" sclass="typedef_name">
+      <name>__mbstate_t</name>
+    </id>
+    <id type="S4" sclass="tagname">
+      <name>anon_type_4__G_fpos_t</name>
+    </id>
+    <id type="S4" sclass="typedef_name">
+      <name>_G_fpos_t</name>
+    </id>
+    <id type="S5" sclass="tagname">
+      <name>anon_type_5__G_fpos64_t</name>
+    </id>
+    <id type="S5" sclass="typedef_name">
+      <name>_G_fpos64_t</name>
+    </id>
+    <id type="__builtin_va_list" sclass="typedef_name">
+      <name>__gnuc_va_list</name>
+    </id>
+    <id type="S6" sclass="tagname">
+      <name>_IO_jump_t</name>
+    </id>
+    <id type="void" sclass="typedef_name">
+      <name>_IO_lock_t</name>
+    </id>
+    <id type="S2" sclass="tagname">
+      <name>_IO_marker</name>
+    </id>
+    <id type="E0" sclass="tagname">
+      <name>__codecvt_result</name>
+    </id>
+    <id type="E0" sclass="moe">
+      <name>__codecvt_ok</name>
+    </id>
+    <id type="E0" sclass="moe">
+      <name>__codecvt_partial</name>
+    </id>
+    <id type="E0" sclass="moe">
+      <name>__codecvt_error</name>
+    </id>
+    <id type="E0" sclass="moe">
+      <name>__codecvt_noconv</name>
+    </id>
+    <id type="S1" sclass="tagname">
+      <name>_IO_FILE</name>
+    </id>
+    <id type="S1" sclass="typedef_name">
+      <name>_IO_FILE</name>
+    </id>
+    <id type="S7" sclass="tagname">
+      <name>_IO_FILE_plus</name>
+    </id>
+    <id type="S7" sclass="extern">
+      <name>_IO_2_1_stdin_</name>
+    </id>
+    <id type="S7" sclass="extern">
+      <name>_IO_2_1_stdout_</name>
+    </id>
+    <id type="S7" sclass="extern">
+      <name>_IO_2_1_stderr_</name>
+    </id>
+    <id type="F0" sclass="typedef_name">
+      <name>__io_read_fn</name>
+    </id>
+    <id type="F1" sclass="typedef_name">
+      <name>__io_write_fn</name>
+    </id>
+    <id type="F2" sclass="typedef_name">
+      <name>__io_seek_fn</name>
+    </id>
+    <id type="F3" sclass="typedef_name">
+      <name>__io_close_fn</name>
+    </id>
+    <id type="F4" sclass="extern">
+      <name>__underflow</name>
+    </id>
+    <id type="F5" sclass="extern">
+      <name>__uflow</name>
+    </id>
+    <id type="F6" sclass="extern">
+      <name>__overflow</name>
+    </id>
+    <id type="F7" sclass="extern">
+      <name>_IO_getc</name>
+    </id>
+    <id type="F8" sclass="extern">
+      <name>_IO_putc</name>
+    </id>
+    <id type="F9" sclass="extern">
+      <name>_IO_feof</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F10" sclass="extern">
+      <name>_IO_ferror</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F11" sclass="extern">
+      <name>_IO_peekc_locked</name>
+    </id>
+    <id type="F12" sclass="extern">
+      <name>_IO_flockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F13" sclass="extern">
+      <name>_IO_funlockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F14" sclass="extern">
+      <name>_IO_ftrylockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F15" sclass="extern">
+      <name>_IO_vfscanf</name>
+    </id>
+    <id type="F16" sclass="extern">
+      <name>_IO_vfprintf</name>
+    </id>
+    <id type="F17" sclass="extern">
+      <name>_IO_padn</name>
+    </id>
+    <id type="F18" sclass="extern">
+      <name>_IO_sgetn</name>
+    </id>
+    <id type="F19" sclass="extern">
+      <name>_IO_seekoff</name>
+    </id>
+    <id type="F20" sclass="extern">
+      <name>_IO_seekpos</name>
+    </id>
+    <id type="F21" sclass="extern">
+      <name>_IO_free_backup_area</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="__builtin_va_list" sclass="typedef_name">
+      <name>va_list</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>off_t</name>
+    </id>
+    <id type="long" sclass="typedef_name">
+      <name>ssize_t</name>
+    </id>
+    <id type="S4" sclass="typedef_name">
+      <name>fpos_t</name>
+    </id>
+    <id type="P53" sclass="extern">
+      <name>stdin</name>
+    </id>
+    <id type="P54" sclass="extern">
+      <name>stdout</name>
+    </id>
+    <id type="P55" sclass="extern">
+      <name>stderr</name>
+    </id>
+    <id type="F22" sclass="extern">
+      <name>remove</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F23" sclass="extern">
+      <name>rename</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F24" sclass="extern">
+      <name>renameat</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F25" sclass="extern">
+      <name>tmpfile</name>
+    </id>
+    <id type="F26" sclass="extern">
+      <name>tmpnam</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F27" sclass="extern">
+      <name>tmpnam_r</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F28" sclass="extern">
+      <name>tempnam</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+        <gccAttribute name="malloc"/>
+      </gccAttributes>
+    </id>
+    <id type="F29" sclass="extern">
+      <name>fclose</name>
+    </id>
+    <id type="F30" sclass="extern">
+      <name>fflush</name>
+    </id>
+    <id type="F31" sclass="extern">
+      <name>fflush_unlocked</name>
+    </id>
+    <id type="F32" sclass="extern">
+      <name>fopen</name>
+    </id>
+    <id type="F33" sclass="extern">
+      <name>freopen</name>
+    </id>
+    <id type="F34" sclass="extern">
+      <name>fdopen</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F35" sclass="extern">
+      <name>fmemopen</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F36" sclass="extern">
+      <name>open_memstream</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F37" sclass="extern">
+      <name>setbuf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F38" sclass="extern">
+      <name>setvbuf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F39" sclass="extern">
+      <name>setbuffer</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F40" sclass="extern">
+      <name>setlinebuf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F41" sclass="extern">
+      <name>fprintf</name>
+    </id>
+    <id type="F42" sclass="extern">
+      <name>printf</name>
+    </id>
+    <id type="F43" sclass="extern">
+      <name>sprintf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+      </gccAttributes>
+    </id>
+    <id type="F44" sclass="extern">
+      <name>vfprintf</name>
+    </id>
+    <id type="F45" sclass="extern">
+      <name>vprintf</name>
+    </id>
+    <id type="F46" sclass="extern">
+      <name>vsprintf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+      </gccAttributes>
+    </id>
+    <id type="F47" sclass="extern">
+      <name>snprintf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="format">
+          <builtin_op name="__printf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">3</intConstant>
+          <intConstant type="int">4</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F48" sclass="extern">
+      <name>vsnprintf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="format">
+          <builtin_op name="__printf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">3</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F49" sclass="extern">
+      <name>vdprintf</name>
+      <gccAttributes>
+        <gccAttribute name="format">
+          <builtin_op name="__printf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F50" sclass="extern">
+      <name>dprintf</name>
+      <gccAttributes>
+        <gccAttribute name="format">
+          <builtin_op name="__printf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">3</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F51" sclass="extern">
+      <name>fscanf</name>
+    </id>
+    <id type="F52" sclass="extern">
+      <name>scanf</name>
+    </id>
+    <id type="F53" sclass="extern">
+      <name>sscanf</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F57" sclass="extern">
+      <name>vfscanf</name>
+      <gccAttributes>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F58" sclass="extern">
+      <name>vscanf</name>
+      <gccAttributes>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">1</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">1</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F59" sclass="extern">
+      <name>vsscanf</name>
+      <gccAttributes>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+        <gccAttribute name="format">
+          <builtin_op name="__scanf__" is_gccSyntax="1" is_id="1"/>
+          <intConstant type="int">2</intConstant>
+          <intConstant type="int">0</intConstant>
+        </gccAttribute>
+      </gccAttributes>
+    </id>
+    <id type="F63" sclass="extern">
+      <name>fgetc</name>
+    </id>
+    <id type="F64" sclass="extern">
+      <name>getc</name>
+    </id>
+    <id type="F65" sclass="extern">
+      <name>getchar</name>
+    </id>
+    <id type="F66" sclass="extern">
+      <name>getc_unlocked</name>
+    </id>
+    <id type="F67" sclass="extern">
+      <name>getchar_unlocked</name>
+    </id>
+    <id type="F68" sclass="extern">
+      <name>fgetc_unlocked</name>
+    </id>
+    <id type="F69" sclass="extern">
+      <name>fputc</name>
+    </id>
+    <id type="F70" sclass="extern">
+      <name>putc</name>
+    </id>
+    <id type="F71" sclass="extern">
+      <name>putchar</name>
+    </id>
+    <id type="F72" sclass="extern">
+      <name>fputc_unlocked</name>
+    </id>
+    <id type="F73" sclass="extern">
+      <name>putc_unlocked</name>
+    </id>
+    <id type="F74" sclass="extern">
+      <name>putchar_unlocked</name>
+    </id>
+    <id type="F75" sclass="extern">
+      <name>getw</name>
+    </id>
+    <id type="F76" sclass="extern">
+      <name>putw</name>
+    </id>
+    <id type="F77" sclass="extern">
+      <name>fgets</name>
+    </id>
+    <id type="F78" sclass="extern">
+      <name>gets</name>
+      <gccAttributes>
+        <gccAttribute name="deprecated"/>
+      </gccAttributes>
+    </id>
+    <id type="F79" sclass="extern">
+      <name>__getdelim</name>
+    </id>
+    <id type="F80" sclass="extern">
+      <name>getdelim</name>
+    </id>
+    <id type="F81" sclass="extern">
+      <name>getline</name>
+    </id>
+    <id type="F82" sclass="extern">
+      <name>fputs</name>
+    </id>
+    <id type="F83" sclass="extern">
+      <name>puts</name>
+    </id>
+    <id type="F84" sclass="extern">
+      <name>ungetc</name>
+    </id>
+    <id type="F85" sclass="extern">
+      <name>fread</name>
+    </id>
+    <id type="F86" sclass="extern">
+      <name>fwrite</name>
+    </id>
+    <id type="F87" sclass="extern">
+      <name>fread_unlocked</name>
+    </id>
+    <id type="F88" sclass="extern">
+      <name>fwrite_unlocked</name>
+    </id>
+    <id type="F89" sclass="extern">
+      <name>fseek</name>
+    </id>
+    <id type="F90" sclass="extern">
+      <name>ftell</name>
+    </id>
+    <id type="F91" sclass="extern">
+      <name>rewind</name>
+    </id>
+    <id type="F92" sclass="extern">
+      <name>fseeko</name>
+    </id>
+    <id type="F93" sclass="extern">
+      <name>ftello</name>
+    </id>
+    <id type="F94" sclass="extern">
+      <name>fgetpos</name>
+    </id>
+    <id type="F95" sclass="extern">
+      <name>fsetpos</name>
+    </id>
+    <id type="F96" sclass="extern">
+      <name>clearerr</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F97" sclass="extern">
+      <name>feof</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F98" sclass="extern">
+      <name>ferror</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F99" sclass="extern">
+      <name>clearerr_unlocked</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F100" sclass="extern">
+      <name>feof_unlocked</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F101" sclass="extern">
+      <name>ferror_unlocked</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F102" sclass="extern">
+      <name>perror</name>
+    </id>
+    <id type="int" sclass="extern">
+      <name>sys_nerr</name>
+    </id>
+    <id type="A4" sclass="extern">
+      <name>sys_errlist</name>
+    </id>
+    <id type="F103" sclass="extern">
+      <name>fileno</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F104" sclass="extern">
+      <name>fileno_unlocked</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F105" sclass="extern">
+      <name>popen</name>
+    </id>
+    <id type="F106" sclass="extern">
+      <name>pclose</name>
+    </id>
+    <id type="F107" sclass="extern">
+      <name>ctermid</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F108" sclass="extern">
+      <name>flockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F109" sclass="extern">
+      <name>ftrylockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F110" sclass="extern">
+      <name>funlockfile</name>
+      <gccAttributes>
+        <gccAttribute name="nothrow"/>
+        <gccAttribute name="leaf"/>
+      </gccAttributes>
+    </id>
+    <id type="F111" sclass="extern_def">
+      <name>main</name>
+    </id>
+  </globalSymbols>
+  <globalDeclarations>
+    <linemarker lineno="1" file="/tmp/__omni_tmp__13953/b_pp.c" flag=""/>
+    <linemarker lineno="1" file="&lt;built-in&gt;" flag=""/>
+    <linemarker lineno="1" file="&lt;command-line&gt;" flag=""/>
+    <linemarker lineno="1" file="/usr/include/stdc-predef.h" flag="1 3 4"/>
+    <linemarker lineno="1" file="&lt;command-line&gt;" flag="2"/>
+    <linemarker lineno="1" file="/tmp/__omni_tmp__13953/b_pp.c" flag=""/>
+    <linemarker lineno="1" file="b.c" flag=""/>
+    <linemarker lineno="1" file="/usr/include/stdio.h" flag="1 3 4"/>
+    <linemarker lineno="27" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/features.h" flag="1 3 4"/>
+    <linemarker lineno="364" file="/usr/include/features.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/sys/cdefs.h" flag="1 3 4"/>
+    <linemarker lineno="415" file="/usr/include/x86_64-linux-gnu/sys/cdefs.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/wordsize.h" flag="1 3 4"/>
+    <linemarker lineno="416" file="/usr/include/x86_64-linux-gnu/sys/cdefs.h" flag="2 3 4"/>
+    <linemarker lineno="365" file="/usr/include/features.h" flag="2 3 4"/>
+    <linemarker lineno="388" file="/usr/include/features.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/gnu/stubs.h" flag="1 3 4"/>
+    <linemarker lineno="10" file="/usr/include/x86_64-linux-gnu/gnu/stubs.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" flag="1 3 4"/>
+    <linemarker lineno="11" file="/usr/include/x86_64-linux-gnu/gnu/stubs.h" flag="2 3 4"/>
+    <linemarker lineno="389" file="/usr/include/features.h" flag="2 3 4"/>
+    <linemarker lineno="28" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <linemarker lineno="1" file="/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" flag="1 3 4"/>
+    <linemarker lineno="216" file="/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" flag="3 4"/>
+    <linemarker lineno="34" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/types.h" flag="1 3 4"/>
+    <linemarker lineno="27" file="/usr/include/x86_64-linux-gnu/bits/types.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/wordsize.h" flag="1 3 4"/>
+    <linemarker lineno="28" file="/usr/include/x86_64-linux-gnu/bits/types.h" flag="2 3 4"/>
+    <linemarker lineno="121" file="/usr/include/x86_64-linux-gnu/bits/types.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/typesizes.h" flag="1 3 4"/>
+    <linemarker lineno="122" file="/usr/include/x86_64-linux-gnu/bits/types.h" flag="2 3 4"/>
+    <linemarker lineno="36" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <linemarker lineno="44" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="64" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="74" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/libio.h" flag="1 3 4"/>
+    <linemarker lineno="31" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/_G_config.h" flag="1 3 4"/>
+    <linemarker lineno="15" file="/usr/include/_G_config.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" flag="1 3 4"/>
+    <linemarker lineno="16" file="/usr/include/_G_config.h" flag="2 3 4"/>
+    <linemarker lineno="1" file="/usr/include/wchar.h" flag="1 3 4"/>
+    <linemarker lineno="82" file="/usr/include/wchar.h" flag="3 4"/>
+    <linemarker lineno="21" file="/usr/include/_G_config.h" flag="2 3 4"/>
+    <linemarker lineno="32" file="/usr/include/libio.h" flag="2 3 4"/>
+    <linemarker lineno="49" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h" flag="1 3 4"/>
+    <linemarker lineno="40" file="/usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h" flag="3 4"/>
+    <linemarker lineno="50" file="/usr/include/libio.h" flag="2 3 4"/>
+    <linemarker lineno="144" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="173" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="241" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="289" file="/usr/include/libio.h" flag="3 4"/>
+    <varDecl lineno="315" file="/usr/include/libio.h">
+      <name>_IO_2_1_stdin_</name>
+    </varDecl>
+    <varDecl lineno="316" file="/usr/include/libio.h">
+      <name>_IO_2_1_stdout_</name>
+    </varDecl>
+    <varDecl lineno="317" file="/usr/include/libio.h">
+      <name>_IO_2_1_stderr_</name>
+    </varDecl>
+    <linemarker lineno="333" file="/usr/include/libio.h" flag="3 4"/>
+    <linemarker lineno="385" file="/usr/include/libio.h" flag="3 4"/>
+    <functionDecl>
+      <name>__underflow</name>
+    </functionDecl>
+    <functionDecl>
+      <name>__uflow</name>
+    </functionDecl>
+    <functionDecl>
+      <name>__overflow</name>
+    </functionDecl>
+    <linemarker lineno="429" file="/usr/include/libio.h" flag="3 4"/>
+    <functionDecl>
+      <name>_IO_getc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_putc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_feof</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_ferror</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_peekc_locked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_flockfile</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_funlockfile</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_ftrylockfile</name>
+    </functionDecl>
+    <linemarker lineno="459" file="/usr/include/libio.h" flag="3 4"/>
+    <functionDecl>
+      <name>_IO_vfscanf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_vfprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_padn</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_sgetn</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_seekoff</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_seekpos</name>
+    </functionDecl>
+    <functionDecl>
+      <name>_IO_free_backup_area</name>
+    </functionDecl>
+    <linemarker lineno="75" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <linemarker lineno="90" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="104" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="166" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" flag="1 3 4"/>
+    <linemarker lineno="167" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <varDecl lineno="170" file="/usr/include/stdio.h">
+      <name>stdin</name>
+    </varDecl>
+    <varDecl lineno="171" file="/usr/include/stdio.h">
+      <name>stdout</name>
+    </varDecl>
+    <varDecl lineno="172" file="/usr/include/stdio.h">
+      <name>stderr</name>
+    </varDecl>
+    <functionDecl>
+      <name>remove</name>
+    </functionDecl>
+    <functionDecl>
+      <name>rename</name>
+    </functionDecl>
+    <functionDecl>
+      <name>renameat</name>
+    </functionDecl>
+    <functionDecl>
+      <name>tmpfile</name>
+    </functionDecl>
+    <linemarker lineno="211" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>tmpnam</name>
+    </functionDecl>
+    <functionDecl>
+      <name>tmpnam_r</name>
+    </functionDecl>
+    <linemarker lineno="229" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>tempnam</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fclose</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fflush</name>
+    </functionDecl>
+    <linemarker lineno="254" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fflush_unlocked</name>
+    </functionDecl>
+    <linemarker lineno="268" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fopen</name>
+    </functionDecl>
+    <functionDecl>
+      <name>freopen</name>
+    </functionDecl>
+    <linemarker lineno="297" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="308" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fdopen</name>
+    </functionDecl>
+    <linemarker lineno="321" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fmemopen</name>
+    </functionDecl>
+    <functionDecl>
+      <name>open_memstream</name>
+    </functionDecl>
+    <functionDecl>
+      <name>setbuf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>setvbuf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>setbuffer</name>
+    </functionDecl>
+    <functionDecl>
+      <name>setlinebuf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>printf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>sprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vfprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vsprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>snprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vsnprintf</name>
+    </functionDecl>
+    <linemarker lineno="414" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>vdprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>dprintf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fscanf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>scanf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>sscanf</name>
+    </functionDecl>
+    <linemarker lineno="445" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fscanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_fscanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <functionDecl>
+      <name>scanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_scanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <functionDecl>
+      <name>sscanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_sscanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <linemarker lineno="465" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>vfscanf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vscanf</name>
+    </functionDecl>
+    <functionDecl>
+      <name>vsscanf</name>
+    </functionDecl>
+    <linemarker lineno="496" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>vfscanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_vfscanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <functionDecl>
+      <name>vscanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_vscanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <functionDecl>
+      <name>vsscanf</name>
+      <gccAsm>
+        <stringConstant>__isoc99_vsscanf</stringConstant>
+      </gccAsm>
+    </functionDecl>
+    <linemarker lineno="524" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fgetc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getchar</name>
+    </functionDecl>
+    <linemarker lineno="552" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>getc_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getchar_unlocked</name>
+    </functionDecl>
+    <linemarker lineno="563" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fgetc_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fputc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>putc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>putchar</name>
+    </functionDecl>
+    <linemarker lineno="596" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fputc_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>putc_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>putchar_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getw</name>
+    </functionDecl>
+    <functionDecl>
+      <name>putw</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fgets</name>
+    </functionDecl>
+    <linemarker lineno="640" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>gets</name>
+    </functionDecl>
+    <linemarker lineno="667" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>__getdelim</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getdelim</name>
+    </functionDecl>
+    <functionDecl>
+      <name>getline</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fputs</name>
+    </functionDecl>
+    <functionDecl>
+      <name>puts</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ungetc</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fread</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fwrite</name>
+    </functionDecl>
+    <linemarker lineno="739" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fread_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fwrite_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fseek</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ftell</name>
+    </functionDecl>
+    <functionDecl>
+      <name>rewind</name>
+    </functionDecl>
+    <linemarker lineno="775" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fseeko</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ftello</name>
+    </functionDecl>
+    <linemarker lineno="794" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>fgetpos</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fsetpos</name>
+    </functionDecl>
+    <linemarker lineno="817" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="826" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>clearerr</name>
+    </functionDecl>
+    <functionDecl>
+      <name>feof</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ferror</name>
+    </functionDecl>
+    <functionDecl>
+      <name>clearerr_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>feof_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ferror_unlocked</name>
+    </functionDecl>
+    <functionDecl>
+      <name>perror</name>
+    </functionDecl>
+    <linemarker lineno="1" file="/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" flag="1 3 4"/>
+    <linemarker lineno="26" file="/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" flag="3 4"/>
+    <varDecl lineno="26" file="/usr/include/x86_64-linux-gnu/bits/sys_errlist.h">
+      <name>sys_nerr</name>
+    </varDecl>
+    <varDecl lineno="27" file="/usr/include/x86_64-linux-gnu/bits/sys_errlist.h">
+      <name>sys_errlist</name>
+    </varDecl>
+    <linemarker lineno="856" file="/usr/include/stdio.h" flag="2 3 4"/>
+    <functionDecl>
+      <name>fileno</name>
+    </functionDecl>
+    <functionDecl>
+      <name>fileno_unlocked</name>
+    </functionDecl>
+    <linemarker lineno="874" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>popen</name>
+    </functionDecl>
+    <functionDecl>
+      <name>pclose</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ctermid</name>
+    </functionDecl>
+    <linemarker lineno="914" file="/usr/include/stdio.h" flag="3 4"/>
+    <functionDecl>
+      <name>flockfile</name>
+    </functionDecl>
+    <functionDecl>
+      <name>ftrylockfile</name>
+    </functionDecl>
+    <functionDecl>
+      <name>funlockfile</name>
+    </functionDecl>
+    <linemarker lineno="944" file="/usr/include/stdio.h" flag="3 4"/>
+    <linemarker lineno="2" file="b.c" flag="2"/>
+    <linemarker lineno="2" file="b.c" flag=""/>
+    <functionDefinition lineno="2" file="b.c">
+      <name>main</name>
+      <symbols>
+      </symbols>
+      <params/>
+      <body>
+        <compoundStatement lineno="2" file="b.c">
+          <symbols>
+            <id type="int" sclass="auto">
+              <name>a</name>
+            </id>
+            <id type="A5" sclass="auto">
+              <name>b</name>
+            </id>
+            <id type="A6" sclass="auto">
+              <name>c</name>
+            </id>
+          </symbols>
+          <declarations>
+            <varDecl lineno="3" file="b.c">
+              <name>a</name>
+            </varDecl>
+            <varDecl lineno="4" file="b.c">
+              <name>b</name>
+              <value>
+                <value>
+                  <intConstant type="int">100</intConstant>
+                  <intConstant type="int">1</intConstant>
+                  <intConstant type="int">2</intConstant>
+                  <intConstant type="int">3</intConstant>
+                  <intConstant type="int">4</intConstant>
+                </value>
+              </value>
+            </varDecl>
+            <varDecl lineno="5" file="b.c">
+              <name>c</name>
+            </varDecl>
+          </declarations>
+          <body>
+            <linemarker lineno="6" file="b.c" flag=""/>
+            <pragma lineno="6" file="b.c">acc karnels</pragma>
+            <forStatement lineno="7" file="b.c">
+              <init>
+                <assignExpr type="int">
+                  <Var type="int" scope="local">a</Var>
+                  <intConstant type="int">0</intConstant>
+                </assignExpr>
+              </init>
+              <condition>
+                <logLTExpr type="int">
+                  <Var type="int" scope="local">a</Var>
+                  <intConstant type="int">2</intConstant>
+                </logLTExpr>
+              </condition>
+              <iter>
+                <postIncrExpr type="int">
+                  <Var type="int" scope="local">a</Var>
+                </postIncrExpr>
+              </iter>
+              <body>
+                <compoundStatement lineno="7" file="b.c">
+                  <symbols/>
+                  <declarations/>
+                  <body>
+                    <ifStatement lineno="8" file="b.c">
+                      <condition>
+                        <modExpr type="int">
+                          <Var type="int" scope="local">a</Var>
+                          <intConstant type="int">2</intConstant>
+                        </modExpr>
+                      </condition>
+                      <then>
+                        <compoundStatement lineno="8" file="b.c">
+                          <symbols/>
+                          <declarations/>
+                          <body>
+                            <exprStatement lineno="8" file="b.c">
+                              <assignExpr type="int">
+                                <arrayRef type="int">
+                                  <arrayAddr type="A6" scope="local">c</arrayAddr>
+                                  <Var type="int" scope="local">a</Var>
+                                </arrayRef>
+                                <plusExpr type="int">
+                                  <arrayRef type="int">
+                                    <arrayAddr type="A5" scope="local">b</arrayAddr>
+                                    <Var type="int" scope="local">a</Var>
+                                  </arrayRef>
+                                  <arrayRef type="int">
+                                    <arrayAddr type="A5" scope="local">b</arrayAddr>
+                                    <Var type="int" scope="local">a</Var>
+                                  </arrayRef>
+                                </plusExpr>
+                              </assignExpr>
+                            </exprStatement>
+                          </body>
+                        </compoundStatement>
+                      </then>
+                    </ifStatement>
+                  </body>
+                </compoundStatement>
+              </body>
+            </forStatement>
+            <exprStatement lineno="10" file="b.c">
+              <functionCall type="int">
+                <function>
+                  <funcAddr type="P201">printf</funcAddr>
+                </function>
+                <arguments>
+                  <stringConstant>%d %d\n</stringConstant>
+                  <arrayRef type="int">
+                    <arrayAddr type="A6" scope="local">c</arrayAddr>
+                    <intConstant type="int">0</intConstant>
+                  </arrayRef>
+                  <Var type="int" scope="local">a</Var>
+                </arguments>
+              </functionCall>
+            </exprStatement>
+            <returnStatement lineno="11" file="b.c">
+              <intConstant type="int">0</intConstant>
+            </returnStatement>
+          </body>
+        </compoundStatement>
+      </body>
+    </functionDefinition>
+  </globalDeclarations>
+</XcodeProgram>

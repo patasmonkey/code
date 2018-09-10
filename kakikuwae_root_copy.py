@@ -16,20 +16,33 @@ n_root=ET.Element('n_root')
 #st="<yanyan>\n"
 line=0
 
-def hantei(ele,ch_root):
+def hantei(ele,ch_root):#forStatement
+    global line
+    a=ele.items()
+    for b in a:
+        if(b[0]=='lineno'):
+            yan=int(b[1])
+            #print(ele.tag,line)
     if(ele.tag=="forStatement"):
         sub=ET.SubElement(ch_root,'pragma')
-        sub.set('lineno',str(line))
+        sub.set('lineno',str(yan+line))
         sub.text="acc karnels"
+        line+=1
+        #print("a",line,yan)
+        
 
 def itmm(ele,i_root):
     a=ele.items()
     for b in a:
-        i_root.set(b[0],b[1])
         if(b[0]=='lineno'):
-            line=int(b[1])
-            print(line)
-            
+            asd=int(b[1])
+            #b[1]=str(asd+line)
+            global line
+            #print(line+asd)
+            i_root.set(b[0],str(line+asd))
+        else:
+            i_root.set(b[0],b[1])
+
 def clook(ele,child_root):
     hantei(ele,child_root)
     child_root=ET.SubElement(child_root,ele.tag)
@@ -50,3 +63,5 @@ with open('output.xml','w')as f:
     #f.write(st)
     f.write(pretty_string)
 #tree.write('output.xml')
+
+

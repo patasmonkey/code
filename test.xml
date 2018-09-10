@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<root>
+  <sub>
+    <subsub key="value" key2="value2">text</subsub>
+    <subsub2 key2="value2">text2</subsub2>
+  </sub>
+  <aa>text</aa>
+</root>
